@@ -1,0 +1,84 @@
+/*Startscherm/index.html*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper1 {
+  background-color: green;
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+#naam {
+  margin-left: 46.5%;
+  margin-top: 20%;
+  margin-bottom: 2%;
+
+  display: inline-block;
+  text-shadow: red 1px 1px;
+}
+
+
+
+#start {
+  background-color: red;
+  width: 10%;
+  height: 4%;
+  margin-left: 45%;
+  display:inline-block;
+  text-align: center;
+  color: green;
+}
+
+
+
+#start:hover {
+  background-color: darkgreen;
+  color: red;
+}
+
+/*Intro*/
+
+#wrapper2 {
+  background-color: green;
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+#vak {
+  background-color: red;
+  padding: 15px;
+  width: 20%;
+  font-size:30px ;
+  margin-left: 40%;
+  margin-top: 10%;
+  display: inline-block;
+}
+
+#cassette {
+  height: 10%;
+  width: auto;
+  margin-top: 2%;
+  margin-left: 46%;
+}
+
+#cassette:hover {
+  margin-top: 1%;
+  margin-left: 45%;
+  height: 12%;
+  width: auto;
+}
+
+body, html, #wrapper{
+    height:100%;
+  }
+  
+  
+  
+  
+  
+  

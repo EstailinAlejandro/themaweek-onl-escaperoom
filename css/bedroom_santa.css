@@ -1,0 +1,13 @@
+body {
+    background-image: url(../imgs/bedroom_santa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card {
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 5px;
+    margin-top: 45%;
+    margin-left: 77%;
+}

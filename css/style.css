@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Resetten padding en margin v/d body*/
+
+body {
+    height: 100%;
+}
+
+/*waarde geven aan body*/
+
+#up {
+    text-align: center;
+}
+
+#left {
+    float: left;
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+#right {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(100%,-50%);
+}
+
+#down {
+    text-align: center;
+    clear: both;
+    width: 100%;
+    top: 100%;
+    position: fixed;
+    transform: translate(0, -100%);
+}
+/*De pijlen*/
+
+#invisibleText {
+    float: right;
+    color: transparent;
+}
+
+#invisibleText:hover {
+    cursor: pointer;
+}
+/*puzzel 1*/

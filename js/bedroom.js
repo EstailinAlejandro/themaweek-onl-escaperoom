@@ -1,0 +1,1 @@
+alert('In deze kamer staat iets ergens op geschreven waarop staat hoe je de derde puzzel vind.')
